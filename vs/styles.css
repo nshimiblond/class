@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: black;
+}
+
+/* Navigation */
+nav{
+    float: center;
+    margin: 0;
+    overflow:hidden;
+    text-align: center;
+    padding: 30;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+    color: #aaa;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.logo-img{
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+.bg-div{
+    color: black;
+   background: rgb(172, 172, 179);
+   overflow: hidden;
+}
+.bgd-img {
+    /* The image used */
+    background-image:  url("bi4.jpg");
+    
+  min-height: 400px;
+
+}
+
+    /* Position the navbar container inside the image */
+.container {
+    
+    margin: 20px;
+    width: auto;
+    align-content:center ;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.spic {
+    background-image:  url("zzzz.jpg");
+    height: 300px;
+    width: 500px;
+    
+    position: absolute;
+
+}
+
+footer{
+
+    background: #6A6C6E;
+    color:black;
+  }
+  
+    .colomnh{
+      float: left;
+      width: 33.33%;
+      padding:10px;
+      height: 300px;
+    }
+    .rowh:after{
+      content:"";
+      display:table;
+      clear:both;
+    }
+  
+   {
+      box-sizing: border-box;
+  }
+
+  /*Create two equal columns that floats next to each other */
+.ccolumn {
+    float: right;
+    width: 50%;
+    padding: 20px;
+    height: 350px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.crow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*Create two equal columns that floats next to each other */
+.fcolumn {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 400px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.frow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+{
+    box-sizing: border-box;
+}
+.dcolumn{
+  float: right;
+    width: 50%;
+    padding: 20px;
+    height: 350px;
+
+}
+footer
+.copyright{
+background: white;
+
+  text-align: center;
+}
+ {
+    box-sizing: border-box;
+}
